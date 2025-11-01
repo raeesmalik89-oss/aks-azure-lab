@@ -5,7 +5,7 @@
 A complete cloud-native application deployment on Azure Kubernetes Service demonstrating container orchestration, CI/CD practices, and infrastructure automation.
 
 ## 🏗️ Architecture
-[Client] → [Azure Load Balancer (20.174.106.180)] → [AKS Cluster] → [Node.js Microservices]
+[Client] → [Azure Load Balancer] → [AKS Cluster] → [Node.js Microservices]
 ↓
 [Azure Container Registry]
 
@@ -21,7 +21,7 @@ text
 ## 📊 Deployment Status
 - **Pods**: 2/2 Running ✅
 - **Services**: LoadBalancer Active ✅  
-- **External IP**: 20.174.106.180 ✅
+--**External Access**: Load Balancer Configured ✅
 - **Container Registry**: Integrated ✅
 
 ## 🛠️ Technology Stack
